@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "500575633213",
+    "firebase_url": "https://messenger-a38e6.firebaseio.com",
+    "project_id": "messenger-a38e6",
+    "storage_bucket": "messenger-a38e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500575633213:android:96211ba784606ec8",
+        "android_client_info": {
+          "package_name": "zimmermann.larissa.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500575633213-1dk8789n4h8nrff9t28p88napj1nm2cd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zimmermann.larissa.messenger",
+            "certificate_hash": "1b324f49f41501b33a97253da81a22f60f6db20d"
+          }
+        },
+        {
+          "client_id": "500575633213-aapae6knfh7isutrml48dpt4mq2ift76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-lN-kxFGKPVrusZbJ2uHOMxyKu85dtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500575633213-aapae6knfh7isutrml48dpt4mq2ift76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
