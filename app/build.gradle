@@ -30,6 +30,7 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:11.0.4'
     compile 'com.android.support:design:26.1.0'
     compile 'com.github.rtoshiro.mflibrary:mflibrary:1.0.0'
+    compile 'com.github.stfalcon:smsverifycatcher:0.3.1'
 }
 
 

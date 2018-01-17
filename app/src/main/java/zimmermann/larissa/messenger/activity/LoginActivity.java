@@ -31,7 +31,6 @@ public class LoginActivity extends AppCompatActivity{
 
     private static final String TAG = "MainActivity";
     private static final int REQUEST_CODE = 1;
-    private static final String MESSENGER_MESSAGE = "Messenger - Código de Confirmação: ";
 
     private String[] PERMISSIONS = new String[]{
             android.Manifest.permission.SEND_SMS,
@@ -82,7 +81,7 @@ public class LoginActivity extends AppCompatActivity{
                 preferences.saveUserPreferences(userName, telephone, token);
 
                 //Send SMS
-                if(sendSMS(telephone, MESSENGER_MESSAGE + token)) {
+                if(sendSMS(telephone, Constants.MESSENGER_MESSAGE + token)) {
                     Log.i(TAG, "SMS successfully sent!");
                     Intent intent = new Intent(LoginActivity.this, ValidatorActivity.class);
                     startActivity(intent);

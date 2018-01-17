@@ -8,4 +8,5 @@ public class Constants {
     public static final String USER_NAME = "USER_NAME";
     public static final String USER_TELEPHONE = "USER_TELEPHONE";
     public static final String TOKEN = "TOKEN";
+    public static final String MESSENGER_MESSAGE = "Messenger - Código de Confirmação: ";
 }
