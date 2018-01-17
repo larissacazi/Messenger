@@ -71,7 +71,7 @@
         android:textColor="@color/textColorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/registerButtonID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/userNameID"
