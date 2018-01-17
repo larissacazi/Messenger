@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Messenger</string>
+    <string name="enterNameRegisterField">Digite o seu nome</string>
+    <string name="registerButtonID">Cadastrar</string>
+    <string name="validatorText">Validação</string>
+    <string name="validatorMessageText">Você recebeu um SMS para validação do seu número, digite o código de validação abaixo:</string>
+    <string name="codeHint">Digite o código</string>
+    <string name="validatorButtonText">Validar</string>
 </resources>

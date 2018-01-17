@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logoWidth">200dp</dimen>
+    <dimen name="logoHeight">163dp</dimen>
+    <dimen name="marginHoriz">20dp</dimen>
+    <dimen name="marginVertical">20dp</dimen>
+    <dimen name="twoDigitsField">50dp</dimen>
+    <dimen name="bigValidatorSize">20sp</dimen>
+    <dimen name="smallValidatorSize">15sp</dimen>
+    <dimen name="codeWidth">120dp</dimen>
+</resources>

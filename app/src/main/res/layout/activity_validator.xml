@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMessengerPrimary"
+    tools:context="zimmermann.larissa.messenger.activity.ValidatorActivity">
+
+    <ImageView
+        android:id="@+id/valLogoImgID"
+        android:layout_width="@dimen/logoWidth"
+        android:layout_height="@dimen/logoHeight"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valLogoImgID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Validação"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/bigValidatorSize" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="@dimen/marginHoriz"
+        android:text="@string/validatorMessageText"
+        android:textAlignment="center"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/smallValidatorSize" />
+
+    <EditText
+        android:id="@+id/codeNumberID"
+        android:layout_width="@dimen/codeWidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="@string/codeHint"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/smallValidatorSize" />
+
+    <Button
+        android:id="@+id/validatorButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/codeNumberID"
+        android:layout_marginTop="33dp"
+        android:background="@color/colorMessengerPrimaryDark"
+        android:text="@string/validatorButtonText"
+        android:textColor="@color/textColorPrimary" />
+
+</RelativeLayout>

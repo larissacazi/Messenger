@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:textAlignment="center"
+    tools:context="zimmermann.larissa.messenger.activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/logoWidth"
+        android:layout_height="@dimen/logoHeight"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/userNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/marginHoriz"
+        android:layout_marginTop="30dp"
+        android:layout_marginVertical="@dimen/marginVertical"
+        android:ems="10"
+        android:hint="@string/enterNameRegisterField"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/countryCodeID"
+        android:layout_width="@dimen/twoDigitsField"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userNameID"
+        android:layout_alignStart="@+id/userNameID"
+        android:layout_below="@+id/userNameID"
+        android:ems="10"
+        android:hint="+55"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/localCodeID"
+        android:layout_width="@dimen/twoDigitsField"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userNameID"
+        android:layout_toEndOf="@+id/countryCodeID"
+        android:layout_toRightOf="@+id/countryCodeID"
+        android:ems="10"
+        android:hint="11"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/telNumberID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/userNameID"
+        android:layout_below="@+id/userNameID"
+        android:layout_toEndOf="@+id/localCodeID"
+        android:layout_toRightOf="@+id/localCodeID"
+        android:ems="10"
+        android:hint="999999999"
+        android:inputType="phone"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/userNameID"
+        android:layout_alignLeft="@+id/userNameID"
+        android:layout_alignParentLeft="false"
+        android:layout_alignRight="@+id/userNameID"
+        android:layout_alignStart="@+id/userNameID"
+        android:layout_below="@+id/telNumberID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@color/colorMessengerPrimaryDark"
+        android:text="@string/registerButtonID"
+        android:textColor="@color/textColorPrimary" />
+</RelativeLayout>

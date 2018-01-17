@@ -1,10 +1,12 @@
-package zimmermann.larissa.messenger;
+package zimmermann.larissa.messenger.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import zimmermann.larissa.messenger.R;
 
 public class MainActivity extends AppCompatActivity {
 
